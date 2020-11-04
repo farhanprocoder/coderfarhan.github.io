@@ -3,9 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
+    <!-- responsive meta tag link -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fevicon link -->
     <link rel="shortcut icon" href="icon/coderfarhan.png" type="image/x-icon">
+    <!-- aos animate css link -->
+    <link rel="stylesheet" href="Aos animate css & js/aos.css">
+    <!-- google font link -->
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <!-- css link -->
     <link rel="stylesheet" href="css/style.css">
     <title>Coder Farhan</title>
 </head>
@@ -62,7 +68,8 @@
             </div>
             <!-- right side image -->
             <div class="img_area">
-                <img src="http://bit.ly/coderfarhan1" alt="">
+                <img src="https://lh3.googleusercontent.com/_r8DwsA0zhalPnI7SZBHe6Do5wYWjhsGGUPuJ895K8ZBYTNMXLxCMCjDN0V_ls5KpuHZverxRbdRO7MdPog1UqTLoU8Pkp2vLMgbYLLxNdXsXuhxvgdNXA4tzGnXxEsa7YaxuT-X=w2400"
+                    alt="">
             </div>
         </div>
     </section>
@@ -70,7 +77,7 @@
 
     <!-- 2nd section start -->
 
-    <section class="sec_container">
+    <section class="sec_container" data-aos="flip-down">
 
         <div class="sec_section">
 
@@ -101,7 +108,7 @@
 
     <!-- footer start -->
     <footer>
-        <div class="main_footer">
+        <div class="main_footer" data-aos="zoom-in-up">
 
             <div class="footer_logo">
                 <h3>Coder <span>Farhan&#8905;</span> </h3>
@@ -112,21 +119,38 @@
                 <p>"Make it work, make it right, make it fast.” </p>
             </div>
 
+            <!-- footer links -->
             <div class="footer_links1">
                 <ul>
                     <li>
                         <h1>Social Links</h1>
                     </li>
-                    <li> <a class="social_links1" href="https://github.com/Farhanintro" target="_blank">Github</a> <img src="icon/github.svg" alt=""> </li>
-                    <li> <a class="social_links2" href="" target="_blank">Instagram</a> <img src="icon/instagram.svg" alt=""> </li>
-                    <li> <a class="social_links3" href="" target="_blank">Facebook</a> <img src="icon/facebook.svg" alt=""> </li>
-                    <li> <a class="social_links4" href="" target="_blank">Medium</a> <img src="icon/medium.svg" alt=""> </li>
+                    <li> <a class="social_links1" href="https://github.com/Farhanintro" target="_blank">Github</a> <img
+                            src="icon/github.svg" alt=""> </li>
+                    <li> <a class="social_links2" href="" target="_blank">Instagram</a> <img src="icon/instagram.svg"
+                            alt=""> </li>
+                    <li> <a class="social_links3" href="" target="_blank">Facebook</a> <img src="icon/facebook.svg"
+                            alt=""> </li>
+                    <li> <a class="social_links4" href="" target="_blank">Medium</a> <img src="icon/medium.svg" alt="">
+                    </li>
                 </ul>
             </div>
 
         </div>
     </footer>
     <!-- footer end -->
+
+    <!-- aos animate js link -->
+
+    <script src="Aos animate css & js/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 150,
+            duration: 1000,
+        });
+    </script>
+
+    <!-- aos animate js end -->
 
     <!-- external javascript link -->
     <script src="js/farhan.js"></script>
